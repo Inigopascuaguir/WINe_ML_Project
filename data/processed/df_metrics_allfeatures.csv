@@ -1,0 +1,8 @@
+Model,Accuracy,Precision,Recall,F1-Score,Silhouette Score,Best Score
+Random Forest,0.885593220338983,0.69,0.69,0.69,,
+Gradient Boosting,0.826271186440678,0.55,0.69,0.61,,
+SVM,0.5,0.24,0.73,0.36,,
+KNN,0.597457627118644,0.33,0.77,0.47,,
+Logistic Regression,0.5889830508474576,0.39,0.88,0.54,,
+KMeans,,,,,0.155635520944386,
+GridSearchCV,,,,,,0.9547325102880657
