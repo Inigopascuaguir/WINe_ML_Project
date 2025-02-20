@@ -39,7 +39,6 @@ wine-quality-prediction/
 ├── src/                     # 🐍 Código fuente (scripts de Python)
 ├── app/                     # 🖥️ Aplicación Streamlit
 ├── README.md                # 📄 Este archivo
-└── requirements.txt         # 📦 Dependencias del proyecto
 ```
 
 ## 🛠️ Metodología
