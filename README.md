@@ -1,6 +1,4 @@
-# WINe_ML_Project
-
-# 🍷 Proyecto de Machine Learning: Predicción de la Calidad del Vino
+# 🍷 Proyecto de Machine Learning: Predicción de la Calidad del Vino Tinto
 
 ## 📖 Descripción del Proyecto
 
@@ -42,53 +40,41 @@ wine-quality-prediction/
 ├── app/                     # 🖥️ Aplicación Streamlit
 ├── README.md                # 📄 Este archivo
 └── requirements.txt         # 📦 Dependencias del proyecto
+```
 
-🛠️ Metodología
-1. 🧹 Preprocesamiento de Datos
-Limpieza de datos: Manejo de valores nulos y duplicados.
+## 🛠️ Metodología
 
-Normalización y escalado de características.
+### 1. 🧹 Preprocesamiento de Datos
+- **Limpieza de datos**: Manejo de valores nulos y duplicados.
+- **Normalización y escalado** de características.
+- **Balanceo de clases** con SMOTE (Synthetic Minority Over-sampling Technique).
 
-Balanceo de clases con SMOTE.
+### 2. 🤖 Modelado Supervisado
+**Modelos implementados**:
+- Random Forest
+- Gradient Boosting
+- SVM (Support Vector Machine)
+- KNN (K-Nearest Neighbors)
+- Regresión Logística
 
-2. 🤖 Modelado Supervisado
-Modelos implementados:
+**Métricas evaluadas**:
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Matriz de Confusión
 
-Random Forest
+### 3. 🧩 Modelado No Supervisado
+- **KMeans**: Agrupación de vinos en clusters basados en características físico-químicas.
+- Evaluación con **Silhouette Score**.
 
-Gradient Boosting
+### 4. ⚙️ Optimización
+- Ajuste de hiperparámetros con **GridSearchCV** para mejorar el rendimiento.
 
-SVM
+---
 
-KNN
-
-Regresión Logística
-
-Métricas evaluadas:
-
-Accuracy
-
-Precision
-
-Recall
-
-F1-Score
-
-Matriz de Confusión
-
-3. 🧩 Modelado No Supervisado
-KMeans: Agrupación de vinos en clusters.
-
-Evaluación con Silhouette Score.
-
-4. ⚙️ Optimización
-Ajuste de hiperparámetros con GridSearchCV.
-
-📱 Aplicación Streamlit
+## 📱 Aplicación Streamlit
 Aplicación interactiva que permite:
-
-Visualizar el dataset.
-
-Explorar métricas de modelos.
-
-Predecir calidad del vino manualmente.
+- Visualizar el dataset en tiempo real.
+- Explorar métricas de rendimiento de los modelos.
+- Predecir la calidad del vino mediante entrada manual de parámetros.
